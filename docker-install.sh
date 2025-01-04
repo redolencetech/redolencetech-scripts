@@ -17,3 +17,8 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo docker run hello-world
+
+#install Portainer
+
+mkdir ~/docker_data
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=unless-stopped -v ~/docker_data/portainer:/data portainer/portainer-ce
