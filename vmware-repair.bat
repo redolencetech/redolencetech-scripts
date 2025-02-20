@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\VMware\VMware Workstation\vmware-vdiskmanager.exe" -R %1
